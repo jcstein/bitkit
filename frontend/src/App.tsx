@@ -87,6 +87,7 @@ function App() {
         <Text pb="3">Bitkit is built with <Link href='https://bitcoin.org/' target="_blank">Bitcoin</Link>, <Link href='https://rollkit.dev/' target="_blank">Rollkit</Link>, & <Link href='https://github.com/celestiaorg/ethermint' target="_blank">Ethermint</Link>.</Text>
         <Text pb="3">Bitkit is  is a smart contract demo on a <Link href='https://celestia.org/glossary/sovereign-rollup' target="_blank">sovereign rollup</Link> built on Bitcoin to provide <Link href='https://celestia.org/glossary/data-availability' target="_blank">data availability</Link> & <Link href='https://ethereum.org/en/developers/docs/consensus-mechanisms' target="_blank">consensus</Link>, leveraging Ethermint with Rollkit as the <Link href='https://celestia.org/glossary/execution-environment' target="_blank">execution environment</Link>.</Text>
         <Text pb="3">The implementation was possible due to Bitcoin's Taproot upgrade and Ordinals' usage of Bitcoin for publishing arbitrary data.</Text>
+        <Text pb="3">If you'd like to test out the demo, message <Link href='https://twitter.com/nashqueue' target="_blank">@nashqueue</Link> on Twitter for funds.</Text>
         </div> ) : null}
         {address ? (
         <HStack>
@@ -118,13 +119,13 @@ function App() {
         {
           viewState === 'create-post' && (
             <VStack alignItems="center" p="3">
-                <Heading size="md" pt="5" pb="3">Create message</Heading>
+                <Heading size="md" pt="5" pb="3">Inscribe message</Heading>
                 <Input
                   placeholder='Message'
                   onChange={e => setMessage(e.target.value)}
                 />
                 {errorMessage && <div style={{ padding: '5px' }}>{errorMessage}</div>}
-                <Button onClick={wave} colorScheme="orange">Inscribe message</Button>
+                <Button onClick={wave} colorScheme="orange">Send</Button>
                 <Button onClick={() => toggleView('view-posts')} colorScheme="gray">Back</Button>
                 {!errorMessage && loading ? <div style={{padding: '10px'}}>Transaction processing...</div> : null}
             </VStack>

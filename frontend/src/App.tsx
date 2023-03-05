@@ -124,7 +124,7 @@ function App() {
                   onChange={e => setMessage(e.target.value)}
                 />
                 {errorMessage && <div style={{ padding: '5px' }}>{errorMessage}</div>}
-                <Button onClick={wave} colorScheme="orange">Send message</Button>
+                <Button onClick={wave} colorScheme="orange">Inscribe message</Button>
                 <Button onClick={() => toggleView('view-posts')} colorScheme="gray">Back</Button>
                 {!errorMessage && loading ? <div style={{padding: '10px'}}>Transaction processing...</div> : null}
             </VStack>

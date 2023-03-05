@@ -91,7 +91,7 @@ function App() {
         {address ? (
         <HStack>
            {viewState == 'view-posts' && <Button onClick={() => toggleView('view-posts')} colorScheme="gray">Load messages</Button>}
-          {viewState !== 'create-post' && <Button onClick={() => toggleView('create-post')} colorScheme="orange">Create message</Button>}
+          {viewState !== 'create-post' && <Button onClick={() => toggleView('create-post')} colorScheme="orange">Inscribe message</Button>}
         </HStack>
         ) : null}
         {

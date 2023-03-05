@@ -86,6 +86,7 @@ function App() {
         <Heading size="md" pb="3">What is bitkit?</Heading>
         <Text pb="3">Bitkit is built with <Link href='https://bitcoin.org/' target="_blank">Bitcoin</Link>, <Link href='https://rollkit.dev/' target="_blank">Rollkit</Link>, & <Link href='https://github.com/celestiaorg/ethermint' target="_blank">Ethermint</Link>.</Text>
         <Text pb="3">Bitkit is  is a smart contract demo on a <Link href='https://celestia.org/glossary/sovereign-rollup' target="_blank">sovereign rollup</Link> built on Bitcoin to provide <Link href='https://celestia.org/glossary/data-availability' target="_blank">data availability</Link> & <Link href='https://ethereum.org/en/developers/docs/consensus-mechanisms' target="_blank">consensus</Link>, leveraging Ethermint with Rollkit as the <Link href='https://celestia.org/glossary/execution-environment' target="_blank">execution environment</Link>.</Text>
+        <Text pb="3">The implementation was possible due to Bitcoin's Taproot upgrade and Ordinals' usage of Bitcoin for publishing arbitrary data.</Text>
         </div> ) : null}
         {address ? (
         <HStack>

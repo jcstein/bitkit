@@ -1,4 +1,4 @@
-# bitkit
+# 🅱️itkit
 
 A frontend for an EVM rollup on Bitcoin built with Rollkit.
 

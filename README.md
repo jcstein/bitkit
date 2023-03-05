@@ -10,7 +10,7 @@ Bitkit is a smart contract demo on a [sovereign rollup](https://celestia.org/glo
 
 This allows users to securely create and share messages on the sovereign rollup secured by Bitcoin without the need for a centralized server or authority.
 
-This application is deployed on IPFS and can be accessed through or [DNS](https://bitkit.dev/).
+This application is deployed on IPFS and can be accessed through [DNS](https://bitkit.dev/).
 
 <!-- This application is deployed on IPFS and can be accessed through ENS (buildmarket.eth) or [DNS](https://bitkit.dev/). Read more [here 🛸](https://mirror.xyz/joshcstein.eth/UbInedh4ToAAfsDklzSPb3R1_hVSHIdE97hvxIWYlOo) -->
 

@@ -7,7 +7,7 @@ import { Heading, Flex, VStack, Button, HStack, Text, Link, Card, CardBody, Card
 import { Topbuttons } from "./Components/topbuttons";
 import './App.css'
 
-const contractAddress = '0x12a30dc769453601578b1701437eac5efa4b8ce0'
+const contractAddress = '0x3aecbc42fe48540539026a8859c388ab1eba915f'
 
 function App() {
   useEffect(() => {

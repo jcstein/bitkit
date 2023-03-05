@@ -10,7 +10,7 @@ export const Topbuttons = () => {
       <HStack pt="3" pr="5">
       <ConnectButton />
       <IconButton
-          onClick={() => window.open("https://github.com/rollkit/bitkit", "_blank")}
+          onClick={() => window.open("https://github.com/jcstein/bitkit", "_blank")}
         aria-label={`Switch from ${colorMode} mode`} size="sm"
         >
           {<FaGithub />}

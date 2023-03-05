@@ -16,7 +16,7 @@ This application is deployed on IPFS and can be accessed through ENS (buildmarke
 
 ```sh
 # clone the repository
-git clone https://github.com/rollkit/bitkit.git
+git clone https://github.com/jcstein/bitkit.git
 
 # CD into directory, and frontend
 cd bitkit/frontend

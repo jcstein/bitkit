@@ -12,7 +12,7 @@ This allows users to securely create and share messages on the sovereign rollup 
 
 This application is deployed on IPFS and can be accessed through [DNS](https://bitkit.dev/).
 
-<!-- This application is deployed on IPFS and can be accessed through ENS (buildmarket.eth) or [DNS](https://bitkit.dev/). Read more [here 🛸](https://mirror.xyz/joshcstein.eth/UbInedh4ToAAfsDklzSPb3R1_hVSHIdE97hvxIWYlOo) -->
+<!-- This application is deployed on IPFS and can be accessed through [ENS](https://bit-kit.eth.limo)(bit-kit.eth) or [DNS](https://bitkit.dev/). Read more [here 🛸](https://mirror.xyz/joshcstein.eth/UbInedh4ToAAfsDklzSPb3R1_hVSHIdE97hvxIWYlOo) -->
 
 ## Developing this site yourself
 
